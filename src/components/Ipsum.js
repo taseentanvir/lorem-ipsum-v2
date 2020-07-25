@@ -11,6 +11,7 @@ import {
 
 const Ipsum = () => {
   const [value, setValue] = React.useState(false);
+  const [showOl, setShowOl] = React.useState(false);
 
   const text =
     "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam ut venenatis tellus in metus vulputate eu scelerisque felis. Libero justo laoreet sit amet cursus. Donec ac odio tempor orci dapibus ultrices in iaculis. Lectus sit amet est placerat in egestas erat. Turpis massa sed elementum tempus egestas sed. Turpis nunc eget lorem dolor. Accumsan lacus vel facilisis volutpat est velit egestas dui id. Nullam vehicula ipsum a arcu. Ligula ullamcorper malesuada proin libero nunc consequat. Vitae suscipit tellus mauris a diam maecenas sed enim. Est pellentesque elit ullamcorper dignissim cras tincidunt. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Diam sollicitudin tempor id eu nisl nunc. Suspendisse faucibus interdum posuere lorem. Fringilla phasellus faucibus scelerisque eleifend. Placerat orci nulla pellentesque dignissim enim sit amet venenatis urna. Diam quam nulla porttitor massa id neque. Dictum at tempor commodo ullamcorper a lacus.</p>";
