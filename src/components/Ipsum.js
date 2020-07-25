@@ -38,9 +38,9 @@ const Ipsum = () => {
         <input
           id="checkbox"
           type="checkbox"
+          checked={value}
           onClick={() => {
-            setValue(!value);
-            console.log(value);
+            setValue((val) => !val);
           }}
         />
         <Link to="/data" className="button">
