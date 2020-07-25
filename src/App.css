@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background: #dfffea;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button {
+  padding: 10px;
+  border-radius: 7px;
+  border: 2px solid black;
+  background-color: #7de8c4;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: small;
+  margin-right: 7px;
+  font-weight: bold;
+  transition: 0.2s;
+  text-decoration: none;
+  color: black;
+  margin-top: 5px;
+
+  /**/
+
+  display: inline-block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.button:hover,
+.button:active {
+  background-color: #abf4dc;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #5ec1a0;
+}
+
+/* --------------------
+        Footer
+  -------------------- */
+
+footer {
+  font-size: 3vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: absolute;
+  bottom: 0;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.material-icons {
+  font-size: 3vh;
+  color: black;
+  animation: pulse 0.53s infinite ease-in-out reverse;
+  padding: 2px;
 }
 
-@keyframes App-logo-spin {
+@keyframes pulse {
   from {
-    transform: rotate(0deg);
+    transform: scale(0.8);
+    color: #dfffea;
   }
+
   to {
-    transform: rotate(360deg);
+    transform: scale(1.1);
+    color: #1d6b51;
   }
+}
+
+input [type="checkbox"] {
+  -webkit-appearance: none;
 }
